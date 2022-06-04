@@ -4,7 +4,8 @@ const navSlide = () => {
 
     navBox.addEventListener('click', () => {
         navUl.classList.toggle('active')
-    
+        
+        navBox.classList.toggle('toggle')
     })
 }
 

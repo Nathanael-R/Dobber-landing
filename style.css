@@ -312,7 +312,7 @@ form{
     display: flex;
     align-items: center;
     justify-content: center ;
-   width: 100%; 
+     width: 100%; 
 }
 .newsletter input{
     height: 40px;
@@ -325,7 +325,6 @@ form{
     border-radius: 0;
     width: 100px;
     height: 40px;
-    background-color: ;
     font-weight: bold;
     background-color: gray;
     color: white;
@@ -435,7 +434,7 @@ footer{
         position: absolute;
         right: 0;
         top: 50px;
-        height: 70vh;
+        height: 92vh;
         width: 50vw;
         background-color: grey;
         font-weight: bold;
@@ -459,4 +458,17 @@ footer{
     .toggle .line3{
         transform: rotate(45deg) translate(-5px, -6px);
     }
+    .process{
+        text-align: center;
+    }
+    .boxes{
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media screen and ( max-width: 549px ){
+    .boxes, .blog-posts{
+        margin-bottom: 10px;
+    }   
 }
